@@ -5,7 +5,7 @@ import random
 ans = True
 
 while ans:
-    question = raw_input("Ask the magic 8 ball a question: (press enter to quit) ")
+    question = int("Ask the magic 8 ball a question: press enter to quit ")
     
     answers = random.randint(1,8)
     
@@ -35,3 +35,5 @@ while ans:
     
     elif answers == 8:
         print "My sources say no"
+else:
+    print("this is the incoreect input number you entered ")
